@@ -19,9 +19,7 @@ print("Instalação/Atualização concluída. Verifique a saída acima para erro
 
 print("Verificando a versão da biblioteca google-genai...")
 try:
-    # Usa pip show para obter informações sobre o pacote instalado
-    
-except Exception as e:
+    except Exception as e:
     print(f"Erro ao verificar a versão: {e}")
     print("Certifique-se de que a Célula 1 foi executada corretamente para instalar a biblioteca.")
 
@@ -394,5 +392,6 @@ def executar_agente_gemini_completo():
 
 # Executa o agente completo ao rodar a célula
 executar_agente_gemini_completo()
+
 
 
