@@ -12,7 +12,7 @@ Original file is located at
 print("Iniciando instalação e atualização das bibliotecas (modo detalhado)...")
 # Instalamos E ATUALIZAMOS as bibliotecas principais.
 # Removido googletrans, pois a seção de links será removida.
-!pip install --upgrade google-genai requests beautifulsoup4
+
 print("Instalação/Atualização concluída. Verifique a saída acima para erros ou avisos.")
 
 # Célula Extra: Verificar Versão da Biblioteca google-genai
@@ -394,3 +394,4 @@ def executar_agente_gemini_completo():
 
 # Executa o agente completo ao rodar a célula
 executar_agente_gemini_completo()
+
