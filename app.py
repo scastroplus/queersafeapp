@@ -33,7 +33,6 @@ def obter_relatorio_gemini_com_busca(destino, genero, api_key):
     # A partir daqui, toda a lógica está dentro do bloco try-except (Indentação 1)
     try:
         # Configura o cliente da API
-        genai.configure(api_key=api_key) 
         client = genai.Client()
 
         # O PROMPT GIGANTE DO SEU CÓDIGO (mantido para garantir a lógica)
@@ -240,3 +239,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
